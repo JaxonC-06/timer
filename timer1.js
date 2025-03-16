@@ -12,8 +12,8 @@ for (let i = 0; i < input.length; i++) {
   if (input[i] > 0) {
     setTimeout(() => {
       process.stdout.write("\x07");
-    }, input[i] * 1000)
+    }, input[i] * 1000);
   }
 }
 
-console.log(input)
+console.log(input);
